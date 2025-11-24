@@ -1,0 +1,17 @@
+#   Hands-on Lab - Interacting with the Command-Line Assistant
+
+**Hands-on Lab - Interacting with the Command-Line Assistant**
+
+This hands-on lab provides practical experience in using the command-line assistant powered by RHEL Lightspeed on RHEL systems. The lab covers the following key points:
+
+- **Setting up a test environment**: Instructions on how to prepare a suitable environment for interacting with the command-line assistant.
+
+- **Practical exercises**: A series of tasks designed to familiarize users with the command-line assistant's features and capabilities. These exercises may include:
+  - Asking questions to the command-line assistant
+  - Attaching files to questions for more detailed assistance
+  - Checking interaction history with the command-line assistant
+  - Redirecting command output to the command-line assistant
+  - Enabling the command-line assistant to capture terminal activity
+  - Submitting feedback about the command-line assistant responses
+
+This lab aims to equip users with the skills needed to effectively leverage the AI-driven expertise of the command-line assistant for configuring, managing, and troubleshooting RHEL systems.

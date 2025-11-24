@@ -1,0 +1,18 @@
+#   Introducing RHEL Lightspeed for RHEL Systems
+
+```
+Introducing RHEL Lightspeed for RHEL Systems
+:Subheading: Overview of RHEL Lightspeed for RHEL Systems
+
+RHEL Lightspeed for RHEL Systems is a transformative approach that integrates generative AI functionalities to enhance the management and troubleshooting of RHEL environments.
+
+- **Generative AI Integration**: RHEL Lightspeed leverages the power of generative AI, specifically the WatsonX AI API LLM (Large Language Model), to provide intelligent assistance for RHEL system administrators.
+
+- **SaaS Deployment**: The AI model is deployed as a Service-as-a-Service (SaaS), ensuring that the latest AI capabilities are always accessible without the need for local infrastructure management.
+
+- **Command-Line Assistant**: A key component of RHEL Lightspeed is the command-line assistant, which offers AI-driven expertise to help configure, manage, and troubleshoot RHEL systems efficiently.
+
+- **Data Processing**: When users interact with the command-line assistant, it processes their queries and, when necessary, responds with relevant commands or information to guide the user, rather than directly providing the answer to maintain learning and skill development.
+
+This introduction sets the stage for a deeper dive into the command-line assistant's features and capabilities, followed by a hands-on lab for practical application.
+```

@@ -1,0 +1,30 @@
+#  Overview of the command-line assistant
+
+== The Command-Line Assistant Powered by RHEL Lightspeed
+
+The command-line assistant, powered by RHEL Lightspeed, is an innovative tool designed to enhance user interaction with Red Hat Enterprise Linux (RHEL) systems via the command-line interface. This assistant is tailored to cater to both novice and experienced users, offering assistance in a variety of tasks, including but not limited to:
+
+- Answering RHEL-related questions
+- Guiding users through troubleshooting processes
+- Aiding in the interpretation of log entries
+- And many other command-line related tasks
+
+**Process Flow for Input and Output**
+
+The command-line assistant operates on a well-defined process flow for input and output, ensuring efficient and accurate responses. Here's a step-by-step breakdown:
+
+1. **Input Reception**: The assistant begins by receiving your query. It's crucial to frame your question within quotation marks for accurate processing. For instance, you would type `c "What is RHEL"` to ask about RHEL.
+
+2. **Logging and Storage**: All conversations with the command-line assistant are logged and stored. This includes your queries, the complete message sent to the Large Language Model (LLM) provider, and the complete response from the LLM provider. This feature aids in maintaining a record of interactions and improving the assistant's learning over time.
+
+3. **Backend Processing**: The input is then processed by the backend, preparing it for the subsequent stages of AI inference.
+
+4. **Knowledge Retrieval**: The assistant searches for relevant knowledge pertaining to your query. This could involve accessing a vast repository of RHEL-related information.
+
+5. **AI Inference**: The query, relevant knowledge, and other instructions are then sent for AI inference. This is where the Large Language Model (LLM), specifically the WatsonX AI API LLM, comes into play, generating a response based on the input and the retrieved knowledge.
+
+6. **Output Generation**: Finally, you receive the output as a response from the command-line assistant.
+
+**Important Note**: While the command-line assistant is a powerful tool, it's essential to verify the AI-generated responses for accuracy before implementing any suggestions. Human review is always recommended to ensure the reliability of the information.
+
+With this overview, users can now confidently engage

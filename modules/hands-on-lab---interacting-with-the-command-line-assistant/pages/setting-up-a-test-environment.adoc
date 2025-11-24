@@ -1,0 +1,66 @@
+#  Setting up a test environment
+
+= Setting up a Test Environment for RHEL Lightspeed Command-Line Assistant
+
+To effectively demonstrate and practice using the RHEL Lightspeed Command-Line Assistant, it's essential to set up a test environment. This guide will walk you through the necessary steps to create a suitable testing environment.
+
+## Prerequisites
+
+- A Red Hat Enterprise Linux (RHEL) system with root access
+- The command-line assistant enabled
+
+## Step 1: Install the Command-Line Assistant
+
+If you haven't already, install the command-line assistant powered by RHEL Lightspeed. You can follow the instructions in [Chapter 2: Installing the Command-Line Assistant Powered by RHEL Lightspeed](https://your-documentation-link/chapter-2-installing-the-command-line-assistant-powered-by-rhel-lightspeed).
+
+## Step 2: Verify Installation
+
+Ensure that the command-line assistant is correctly installed and functioning. You can do this by running the following command:
+
+```bash
+c
+```
+
+If the assistant is installed and working, you should see a prompt indicating that it's ready to assist you.
+
+## Step 3: Prepare a Sample Web Server Configuration
+
+For this hands-on lab, we'll be working with the Apache HTTP Server (httpd). To create a test environment, follow these steps:
+
+1. List the httpd package version installed on your system:
+
+   ```bash
+   sudo rpm -qa httpd
+   ```
+
+   You should see an output similar to this:
+
+   ```
+   httpd-2.4.62-2.fc40.x86_64
+   ```
+
+2. Display the content of the httpd.conf file:
+
+   ```bash
+   sudo cat /etc/httpd/conf/httpd.conf
+   ```
+
+   This file contains the main configuration directives for the Apache HTTP Server.
+
+3. Query all httpdq packages:
+
+   ```bash
+   sudo rpm -qa httpdq
+   ```
+
+   This step is to ensure that any related packages are installed and accounted for in your test environment.
+
+4. Identify the ports on which the web server accepts incoming requests:
+
+   ```bash
+   cat /etc/httpd/conf/httpd.conf | grep Listen
+   ```
+
+   This command will display the ports configured for the web server.
+
+## Step 4: Configure SELinux Contexts (if

@@ -1,0 +1,31 @@
+#  Use of generative AI functionalities
+
+== Use of Generative AI Functionalities in RHEL Lightspeed for RHEL Systems
+
+RHEL Lightspeed harnesses the power of generative AI through the WatsonX AI API LLM (Large Language Model) to provide an intelligent and interactive command-line assistant. This assistant is designed to help users manage, configure, and troubleshoot their RHEL systems more efficiently.
+
+**1.2. The WatsonX AI API LLM (Large Language Model)**
+
+The WatsonX AI API LLM is a sophisticated language model deployed as a SaaS (Software as a Service) external infrastructure. It is trained on a vast array of RHEL product documentation and Red Hat Knowledgebase articles, enabling it to understand and respond to a wide range of user queries related to RHEL systems.
+
+**Key Features of the WatsonX AI API LLM:**
+
+- **Natural Language Processing (NLP):** The model can comprehend and respond to user queries in natural language, making it accessible to users who may not be familiar with the specific syntax or terminology of RHEL commands.
+
+- **Contextual Understanding:** It can maintain context throughout a conversation, allowing for more accurate and relevant responses as the user's needs evolve.
+
+- **Information Retrieval:** The model can fetch and synthesize information from the extensive RHEL documentation and Red Hat Knowledgebase, providing users with up-to-date and accurate guidance.
+
+- **Proactive Assistance:** Beyond reactive responses to user queries, the AI can proactively suggest solutions or next steps based on the user's current task or system state.
+
+**How the WatsonX AI API LLM Enhances RHEL Management:**
+
+- **Efficient Troubleshooting:** Users can describe their issues in natural language, and the AI will provide relevant commands or steps to diagnose and resolve the problem.
+
+- **Simplified Configuration:** The AI can guide users through complex configuration tasks, breaking them down into manageable steps and providing explanations for each action.
+
+- **Log File Interpretation:** Users can ask the AI to explain log file entries, receiving clear, human-readable summaries of technical details.
+
+- **Feature Implementation:** The AI can assist with implementing new RHEL features, offering step-by-step instructions and answering any questions that arise during the process.
+
+- **Continuous Learning:** As

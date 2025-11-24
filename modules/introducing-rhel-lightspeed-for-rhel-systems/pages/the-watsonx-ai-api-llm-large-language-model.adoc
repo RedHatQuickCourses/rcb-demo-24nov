@@ -1,0 +1,22 @@
+#  The WatsonX AI API LLM (Large Language Model)
+
+== The WatsonX AI API LLM (Large Language Model)
+
+RHEL Lightspeed harnesses the power of the WatsonX AI API LLM (Large Language Model) to provide intelligent assistance for managing Red Hat Enterprise Linux (RHEL) systems. This generative AI model is deployed as a SaaS (Software as a Service) external infrastructure, enabling seamless integration and real-time access to its capabilities.
+
+The WatsonX AI API LLM is trained on extensive RHEL product documentation and the Red Hat Knowledgebase, allowing it to understand, configure, and troubleshoot RHEL systems effectively. By leveraging this vast knowledge base, the LLM can offer accurate and contextually relevant responses to user queries, making it an invaluable tool for system administrators and developers alike.
+
+Key features of the WatsonX AI API LLM include:
+
+1. **Contextual Understanding**: The LLM can comprehend the context of user queries, enabling it to provide precise and relevant responses.
+2. **Knowledge Integration**: By incorporating information from RHEL product documentation and the Red Hat Knowledgebase, the LLM ensures that its responses are accurate and up-to-date.
+3. **Natural Language Processing (NLP)**: The LLM uses advanced NLP techniques to interpret and generate human-like text, making it easy for users to interact with the command-line assistant.
+4. **Scalability**: As a SaaS solution, the WatsonX AI API LLM can scale to meet the demands of a growing user base, ensuring consistent performance and reliability.
+5. **Privacy and Security**: The LLM is designed to respect user privacy and adhere to strict security standards, ensuring that sensitive information remains protected.
+
+By utilizing the WatsonX AI API LLM, RHEL Lightspeed empowers users to manage their RHEL systems more efficiently and effectively, ultimately reducing the time and effort required for routine tasks and troubleshooting.
+
+Additional resources:
+
+* [What are Granite models?](https://www.redhat.com/en/topics/ai/what-are-granite-models)
+* [Red Hat Enterprise Linux 10 Interacting with the command-line assistant powered by RHEL Lightspeed](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/10/

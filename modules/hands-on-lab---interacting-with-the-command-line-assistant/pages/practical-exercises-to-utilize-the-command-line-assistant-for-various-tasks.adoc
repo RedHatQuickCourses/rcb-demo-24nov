@@ -1,0 +1,41 @@
+#  Practical exercises to utilize the command-line assistant for various tasks
+
+== Hands-on Lab - Interacting with the Command-Line Assistant
+
+In this hands-on lab, you will learn to utilize the command-line assistant powered by RHEL Lightspeed for various tasks. The lab is divided into several practical exercises that will help you understand the capabilities and features of the command-line assistant.
+
+### Setting up a Test Environment
+
+Before starting the exercises, ensure you have a RHEL system with the command-line assistant installed. Follow the instructions in Chapters 2, 3, and 4 to set up the command-line assistant on your RHEL system.
+
+### Practical Exercises
+
+#### Exercise 1: Asking Questions to the Command-Line Assistant
+
+1. Open a terminal on your RHEL system.
+2. Use the command `c "What is RHEL?"` to ask a question to the command-line assistant.
+3. Analyze the response and note down the information provided.
+4. Ask another question related to RHEL, such as `c "How to check disk usage?"`.
+5. Document the response and the steps suggested by the command-line assistant.
+
+#### Exercise 2: Attaching a File to Your Questions
+
+1. Create a sample text file, e.g., `sample.txt`, with some content.
+2. Use the command `c "Can you explain the contents of sample.txt?"`, attaching the file using the appropriate syntax (refer to Chapter 4 for details).
+3. Analyze the response and verify if the command-line assistant correctly interpreted the file's content.
+
+#### Exercise 3: Checking Your History Interaction
+
+1. Perform a few commands and interactions with the command-line assistant.
+2. Use the command to check your history, as described in Chapter 4.
+3. Review your past interactions and analyze the command-line assistant's responses.
+
+#### Exercise 4: Redirecting Command Output to the Command-Line Assistant
+
+1. Execute a command that generates output, e.g., `ls -l`.
+2. Redirect the output to the command-line assistant using the appropriate syntax (refer to Chapter 4 for details).
+3. Analyze the command-line assistant's interpretation and suggestions based on the redirected output.
+
+#### Exercise 5: Enabling Terminal Activity Capture
+
+1. Enable the command-line assistant to capture your terminal
